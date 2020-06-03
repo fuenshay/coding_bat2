@@ -7,7 +7,7 @@ def string_times(str, n):
 def string_times(str, n):
   return str * n
   
-  string = Word
+  
   for x in range(n):
     return string * n
   return str  
