@@ -1,5 +1,6 @@
 """
-
+Author: Shay
+Date: June 7, 2020
 
 Given an array of ints length 3, return the sum of all the elements.
 
