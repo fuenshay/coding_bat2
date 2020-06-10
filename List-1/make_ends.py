@@ -1,6 +1,6 @@
 """
 
-Author: Shay
+Author: Shayna Fu
 Date: June 9, 2020
 
 
