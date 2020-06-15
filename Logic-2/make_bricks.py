@@ -13,6 +13,7 @@ make_bricks(3, 2, 10) → True
 
 """
 
+SOLUTION
 def make_bricks(small, big, goal):
   rem = goal % 5
   sums = small + big*5
