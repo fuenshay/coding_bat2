@@ -12,6 +12,7 @@ lucky_sum(1, 13, 3) → 1
 
 """
 
+SOLUTION
 def lucky_sum(a, b, c):
 
   if a == 13:
