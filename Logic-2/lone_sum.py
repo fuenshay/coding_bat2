@@ -13,6 +13,7 @@ lone_sum(3, 3, 3) → 0
 
 """
 
+SOLUTION
 def lone_sum(a, b, c):
   if a == b == c:
     return 0
