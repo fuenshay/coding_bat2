@@ -12,6 +12,8 @@ double_char('Hi-There') → 'HHii--TThheerree'
 
 """
 
+SOLUTION:
+
 def double_char(str):
 
   result = ''
