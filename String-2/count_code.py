@@ -2,8 +2,7 @@
 Author: Shayna Fu
 Date: June 17, 2020
 
-
-Return the number of times that the string "code" appears anywhere in the given string, except we'll accept any letter for the 'd', so "cope" and "cooe" count.
+	Return the number of times that the string "code" appears anywhere in the given string, except we'll accept any letter for the 'd', so "cope" and "cooe" count.
 
 
 count_code('aaacodebbb') → 1
