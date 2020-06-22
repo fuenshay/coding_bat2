@@ -37,3 +37,16 @@ def Options():
     choice = int(input("I choose: "))
     print("Good Luck!")
     
+
+    if choice == 1:
+        DiceRoll(1)
+        
+    if choice == 2:
+        doubleRoll(1)
+        if doubleRoll() % 2 == 0:
+            print("fsdf")
+        
+    if choice == 3:
+        exit();
+
+Options()    
