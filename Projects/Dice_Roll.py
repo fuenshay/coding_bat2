@@ -1,7 +1,11 @@
-""" `
+""" 
 Author: Shayna Fu
 Date: June 13, 2020
 DICE ROLL!
+
+INPUT 1 TO ROLL ONE DICE
+INPUT 2 TO ROLL TWO DICE
+
 """
 import random
 
