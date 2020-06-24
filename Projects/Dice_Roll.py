@@ -5,7 +5,8 @@ DICE ROLL!
 """
 import random
 
-print("Welcome to Dice Roll!")
+print("(((((Welcome to Dice Roll!)))))")
+print("(((((((5 Tokens To Play)))))))")
 
 def DiceRoll(dice1):
     for i in range(dice1):
@@ -13,7 +14,11 @@ def DiceRoll(dice1):
         print(">><<")
         print("*" + str(dice1) + "*")
         print(">><<")
-        print()
+        if dice1 % 2 != 0:
+            print("You rolled an odd number. You win!")
+        else:
+            print("You Lose. Try Again.")
+        
     Options()    
     
 
@@ -23,11 +28,20 @@ def doubleRoll(dice2):
         print(">><<")
         print("*" + str(dice2) + "*")
         print(">><<")
-        print()
+        if dice2 % 2 == 0:
+            print("You rolled an even number. You win!")
+        else:
+            print("You lose. Try Again.")
     Options()
 
 
 def Options():
+    print()
+    print("RULES:")
+    print("************************************************")
+    print("Players must roll odd number with 1 dice to win!")
+    print("************************************************")
+    print("Players must roll even number with 2 dice to win!")
     print("---------------------")
     print("1. Roll One Dice")
     print("2. Roll Two Dice")
@@ -42,11 +56,15 @@ def Options():
         DiceRoll(1)
         
     if choice == 2:
-        doubleRoll(1)
-        if doubleRoll() % 2 == 0:
-            print("fsdf")
+        dice2 = int(input("--ROLL TWICE FOR ALL OR NOTHING FOR 2 TOKENS-- How many times would you like to roll?: "))
+        doubleRoll(dice2)
         
     if choice == 3:
+        print("Are you sure you want to exit game?")
         exit();
 
-Options()    
+Options()
+
+
+
+    
