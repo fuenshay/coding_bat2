@@ -22,15 +22,11 @@ def sum13(nums):
     return 0
     
   sum = 0
-  i = 0
   
-  while (i < len(nums)):
-    if nums[i] != 13:
+  if len(nums) > 0 and nums[0] != 13:
+    sum = nums[0]
+    
+  for i in range (1,len(nums),1):
+    if nums[i] != 13 and nums[i-1] != 13:
       sum = sum + nums[i]
-    else:
-      i = i + 1
-      
-    i = i + 1
-  
   return sum
-
